@@ -63,4 +63,23 @@ to disconnect from remote repository
 git remote remove origin
 
 
+fetch gets all the change history of a tracked branch/repo.
+git fetch origin
+
+We are behind the origin/master by 1 commit. That should be the updated README.md, but lets double check by viewing the log:
+git log origin/master
+
+
+That looks as expected, but we can also verify by showing the differences between our local master and origin/master:
+git diff origin/master
+
+merge combines the current branch, with a specified branch
+git merge origin/master
+
+
+But what if you just want to update your local repository, without going through all those steps?
+pull is a combination of fetch and merge. It is used to pull all changes from a remote repository into the branch you are working on.
+
+git pull origin
+
 
