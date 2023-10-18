@@ -1,0 +1,62 @@
+git --version
+
+
+Now let Git know who you are. This is important for version control systems, as each Git commit uses this information
+git config --global user.name "w3schools-test"
+git config --global user.email "test@w3schools.com"
+Note: Use global to set the username and e-mail for every repository on your computer.
+If you want to set the username/e-mail for just the current repo, you can remove global
+
+
+To remove global user
+git config --global --unset user.name
+git config --global --unset user.email
+
+
+initialize Git
+git init
+
+
+git status
+
+
+To add files to staging
+git add --all
+
+Git considers each commit change point or "save point".When we commit, we should always include a message.
+git commit -m "first release"
+
+To view the history of commits for a repository, you can use the log command:
+git log
+
+This will display a very long list of commands
+git help --all
+
+new git branch
+git branch hello-world
+
+Let's confirm that we have created a new branch
+git branch
+
+checkout is the command used to check out a branch. Moving us from the current branch, to the one specified at the end of the command:
+git checkout hello-world
+
+to merge branches first revert to master 
+git checkout master
+
+git merge hello-world
+
+delete branch
+git branch -d hello-world
+
+
+connecting to github
+create a repo 
+
+git remote add origin https://github.com/Dhanush1903/EmployeeLoader.git
+
+Now we are going to push our master branch to the origin url, and set it as the default remote branch:
+git push --set-upstream origin master
+
+
+
