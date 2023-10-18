@@ -1,0 +1,4 @@
+2023-10-16 17:55:41.302 INFO com.lcode.lcm.payloadClient.RestPayloadClient [http-nio-64041-exec-1] refNum-->1fd0cff9-6d61-484c-bcf5-3da4cdfccd65
+2023-10-16 17:55:41.449 INFO com.lcode.lcm.payloadClient.RestPayloadClient [http-nio-64041-exec-1] OAUTH Token ==><--:Request Type:-->GETTOKEN<--:Unique ID:-->1fd0cff9-6d61-484c-bcf5-3da4cdfccd65
+2023-10-16 17:57:05.854 INFO com.lcode.lcm.payloadClient.RestPayloadClient [http-nio-64041-exec-1] Response from Token==><--:Request Type:-->GETTOKEN<--:Unique ID:-->1fd0cff9-6d61-484c-bcf5-3da4cdfccd65<--:Response String:-->{ERR_CODE=91, STATUS=T, RESPONSE={"message":"Connection Expection.Please try later"}}
+
