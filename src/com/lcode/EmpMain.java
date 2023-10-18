@@ -63,7 +63,7 @@ public class EmpMain {
 	}
 	
 	System.out.println("What is the average salary of each department?");
-	Map<String,Double> average =  employeeList.stream().collect(Collectors.groupingBy(Employee::getDepartment,Collectors.averagingDouble(Employee::getSalary)));
+	Map<String,Double> average = employeeList.stream().collect(Collectors.groupingBy(Employee::getDepartment,Collectors.averagingDouble(Employee::getSalary)));
 	System.out.println(average);
 	
 	System.out.println("Get the details of youngest male employee in the product development department?");
@@ -96,8 +96,9 @@ public class EmpMain {
 	employeeList.stream().filter(e-> e.getAge()<=25).forEach(n-> System.out.println(n.getName()));
 	
 	System.out.println(" Who is the oldest employee in the organization? What is his age and which department he belongs to?");
-	
-		
+//	demo for git
+//	demo for new branch
+   
 	}
 	
 	
