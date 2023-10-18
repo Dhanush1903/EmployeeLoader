@@ -59,4 +59,8 @@ Now we are going to push our master branch to the origin url, and set it as the 
 git push --set-upstream origin master
 
 
+to disconnect from remote repository
+git remote remove origin
+
+
 
